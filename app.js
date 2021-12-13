@@ -20,13 +20,12 @@ app.use(
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.mongoUserName}:${process.env.mongoUserPassword}@graphqlcluster.fpcxm.mongodb.net/${process.env.mongoDatabase}?retryWrites=true&w=majority
-`,
+    `mongodb+srv://adminvijay:UCxkSRwe0jCG9byU@cluster0.y9rww.mongodb.net/testing?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
     app.listen({ port: port }, () => {
-      console.log(process.env.mongoUserName);
+      console.log('process.env.mongoUserName');
       //localhost:4000
       console.log("Listening for requests on my awesome port " + port);
     });
