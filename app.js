@@ -20,7 +20,7 @@ app.use(
 
 mongoose
   .connect(
-    `mongodb+srv://adminvijay:UCxkSRwe0jCG9byU@cluster0.y9rww.mongodb.net/testing?retryWrites=true&w=majority`,
+    `mongodb+srv://${process.env.mongoUserName}:${process.env.mongoUserPassword}@cluster0.y9rww.mongodb.net/${process.env.mongoDatabase}?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
