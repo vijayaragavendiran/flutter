@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
           );
           await Navigator.push(context, route);
         },
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.blueAccent,
         child: Icon(Icons.group_add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );

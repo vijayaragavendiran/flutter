@@ -46,7 +46,7 @@ class _UpdateUserState extends State<UpdateUser> {
         title: Text(
           "Update ${widget.name}",
           style: TextStyle(
-              color: Colors.grey, fontSize: 19, fontWeight: FontWeight.bold),
+              color: Colors.white, fontSize: 19, fontWeight: FontWeight.bold),
         ),
       ),
       body: SingleChildScrollView(
@@ -166,7 +166,7 @@ class _UpdateUserState extends State<UpdateUser> {
                                     child: Text(
                                       "Update",
                                       style: TextStyle(
-                                          color: Colors.grey, fontSize: 16),
+                                          color: Colors.white, fontSize: 16),
                                     ),
                                   ),
                                   style: buildButtonStyle(),

@@ -46,7 +46,7 @@ class _AddUserPageState extends State<AddUserPage> {
           style: TextStyle(
               color: Colors.grey, fontSize: 19, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.blue.shade900,
         elevation: 0,
       ),
       body: SingleChildScrollView(
